@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  background-color: PaleTurquoise;
+  font-size: 16px;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  display: block;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.post {
+  display: block;
+  padding-bottom: 40px;
+  border-bottom: solid 1px lightgrey;
+  margin-bottom: 50px;
+}
+
+.post:last-child {
+  border: none;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.user-desrciption {
+  display: block;
+  font-size: 14px;
+}
+
+.avatar {
+  padding-right: 5px;
+}
+
+.user-id {
+  text-transform: uppercase;
+  padding-right: 10px;
+  font-weight: bold;
+  color: darkcyan;
+}
+
+.date-created {
+  font-size: 14px;
+  font-weight: normal;
+  color: grey;
+}
+
+.h2 {
+  display: block;
+  font-size: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: darkcyan;
+}
+
+.preview {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+.date-updated {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  color: grey;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.comments {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.comment-ava {
+  width: 10%;
+  display: inline-block;
+  font-size: 60px;
+}
+
+.comment-text {
+  width: 90%;
+  display: inline-block;
+  margin-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+}
